@@ -1,0 +1,115 @@
+:root {
+    --theme-color: rgb(226, 43, 217);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+#login {
+    position: relative;
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: var(--theme-color);
+}
+
+input {
+    display: block;
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 10px;
+}
+
+button {
+    width: 98%;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: var(--theme-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.menu-theme {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80px;
+    height: 350px;
+    background-color: white;
+    transform: translateY(-50%);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.ball-1 {
+    background-color: rgb(33, 150, 33);
+}
+
+.ball-2 {
+    background-color: rgb(241, 25, 25);
+}
+
+.ball-3 {
+    background-color: rgb(56, 85, 198);
+}
+
+.ball-4 {
+    background-color: rgb(226, 43, 217);
+}
+
+.ball-5 {
+    background-color: rgb(248, 106, 25);
+}
